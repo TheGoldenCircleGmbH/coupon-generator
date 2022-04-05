@@ -1,0 +1,24 @@
+{
+  "name": "tgc-service-coupon-generator",
+  "version": "0.0.1",
+  "description": "Create a list of coupon codes",
+  "keywords": [
+    "tgc",
+    "coupons",
+    "generator"
+  ],
+  "license": "",
+  "author": "Fabian Aumiller",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "generate-password": "^1.7.0"
+  }
+}

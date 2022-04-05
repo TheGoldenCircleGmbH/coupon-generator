@@ -1,0 +1,68 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>THE GOLDEN CIRCLE | COUPON GENERATOR</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<section>
+  <div class="wrap">
+    <label for="prefix">Prefix: </label>
+    <input type="text" id="prefix" name="prefix" value="TGC">
+  </div>
+  <div class="wrap">
+    <label for="len">Codelänge: </label>
+    <input id="len" name="len" type="range" value="7" min="5" max="20" oninput="this.nextElementSibling.value = this.value">
+    <output>7</output>
+  </div>
+  <div class="wrap">
+    <label for="suffix">Suffix: </label>
+    <input type="text" id="suffix" name="prefix">
+  </div>
+  <div class="wrap">
+    <label for="amount">Anzahl der Codes:</label>
+    <input type="text" id="amount" name="amount" value="1">
+  </div>
+  <button id="update-btn">GENERIEREN</button>
+  <div id="result"></div>
+</section>
+
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments)
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
