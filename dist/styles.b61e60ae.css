@@ -1,0 +1,24 @@
+section {
+  margin: 3rem;
+  font-size: 1.5rem;
+}
+
+input {
+  text-transform: uppercase;
+}
+
+.wrap {
+  margin-bottom: 1rem;
+}
+
+#update-btn {
+  margin: 1rem 0;
+}
+
+#result {
+  padding: 2rem;
+  background-color: #afac87;
+}
+
+
+/*# sourceMappingURL=/styles.b61e60ae.css.map */
